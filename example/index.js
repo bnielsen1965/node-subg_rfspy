@@ -4,7 +4,7 @@ const RCV_TIMEOUT = 250; // millisseconds to wait for a packet to be received
 const RESEND_COUNT = 4; // number of times to resend a packet
 const RESEND_DELAY = 100; // millisseconds between each resend
 
-const SubgRFSpy = require('./lib/subgrfspy');
+const SubgRFSpy = require('subgrfspy');
 let radio = new SubgRFSpy();
 
 if (process.argv.length < 3) {
