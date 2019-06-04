@@ -1,6 +1,6 @@
 {
   "name": "subgrfspy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node module used to communicate over SPI with subg_rfspy firmware on CC111x radio chip.",
   "main": "lib/subgrfspy.js",
   "scripts": {
@@ -9,6 +9,10 @@
   "keywords": ["subg_rfspy", "CC111x", "CC1110"],
   "author": "Bryan Nielsen <bnielsen1965@gmail.com> (https://github.com/bnielsen1965)",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bnielsen1965/node-subg_rfspy.git"
+  },
   "dependencies": {
     "rpio": "^0.9.23"
   }
